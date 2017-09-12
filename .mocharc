@@ -1,0 +1,4 @@
+--require ./tests/setup.js
+--compilers js:babel-core/register
+--colors
+--timeout 500
