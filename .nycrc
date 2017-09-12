@@ -1,0 +1,21 @@
+{
+	"check-coverage": true,
+	"per-file": true,
+	"lines": 50,
+	"statements": 50,
+	"functions": 50,
+	"branches": 50,
+	"reporter": ["html","text"],
+	"report-dir": "./.nyc_coverage",
+	"require": [
+	  "babel-register"
+	],
+	"include": ["src/**/*.js"],
+	"exclude": [
+	  "**/node_modules/**",
+	  "**/__tests__/**",
+	  "**/*.spec.js",
+	  "**/*.test.js",
+	  "build"
+	]
+}
