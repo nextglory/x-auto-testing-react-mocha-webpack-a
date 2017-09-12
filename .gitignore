@@ -1,0 +1,13 @@
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules
+
+.idea
+
+.nyc_coverage
+.nyc_output
+.DS_Store
+**/**/.DS_Store
